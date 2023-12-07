@@ -70,7 +70,7 @@ Tracker = "https://github.com/glotaran/pyglotaran-extras/issues"
 path = "pyglotaran_extras/__init__.py"
 
 [tool.hatch.build.targets.sdist]
-include = ["/pyglotaran_extras"]
+include = ["/pyglotaran_extras", "/tests"]
 
 [tool.hatch.envs.default]
 features = ["dev"]
