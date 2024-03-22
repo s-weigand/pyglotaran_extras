@@ -69,7 +69,7 @@ jobs:
           merge-multiple: true
 
       - name: Delete Intermediate artifacts
-        uses: geekyeggo/delete-artifact@v4
+        uses: geekyeggo/delete-artifact@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           name: example-plots-*
